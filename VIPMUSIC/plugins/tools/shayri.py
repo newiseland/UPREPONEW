@@ -182,4 +182,21 @@ async def send_good_morning():
     schats = await get_served_chats()
     for chat in schats:
         chats.append(int(chat["chat_id"]))
-    if len(
+    if len(chats) == 0:
+        return
+    for chat_id in chats:
+        try:
+            if chat_id == -1001645282995:
+                continue
+            shayari = random.choice(morning_shayari)
+            await app.send_photo(
+                chat_id,
+                photo="https://telegra.ph//file/14ec9c3ff42b59867040a.jpg",
+                caption=f"**{shayari}**",
+                reply_markup=add_buttons,
+            )
+        except Exception as e:
+            print(f"[bold red] Unable to send Good Morning message to Group {chat_id} - {e}")
+
+scheduler.add_job(send_good_morning, trigger="cron", hour=6, minute=1)
+scheduler.start()
