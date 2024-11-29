@@ -61,7 +61,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": -1002441439611",
+        "value": "-1002441439611",
         "required": true
       },
       "AUTO_GCAST": {
