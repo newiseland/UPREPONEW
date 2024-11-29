@@ -1,7 +1,7 @@
 {
-    "name": "VIPMUSIC",
+    "name": "SIDHIMUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://graph.org/file/c0e014ff34f34d1056627.png",
+    "logo": "https://envs.sh/Y_T.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -41,7 +41,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6919772024",
+        "value": "7129262488",
         "required": true
       },
       "STRING_SESSION": {
@@ -61,7 +61,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001645282995",
+        "value": -1002441439611",
         "required": true
       },
       "AUTO_GCAST": {
@@ -70,13 +70,20 @@
         "required": false
       },
       "AUTO_GCAST_MSG": {
-        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐖𝐇𝐈𝐂𝐇 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐓𝐖𝐈𝐂𝐄 𝐈𝐍 𝐀 𝐃𝐀𝐘. ( 𝐀𝐍𝐘 𝐓𝐘𝐏𝐄 𝐎𝐅 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐂𝐎𝐏𝐘 𝐀𝐍𝐃 𝐏𝐀𝐒𝐓𝐄 𝐇𝐄𝐑𝐄 )",
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐖𝐇𝐈𝐂𝐇 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐓𝐖𝐈𝐂𝐄 𝐈𝐍 𝐀 𝐃𝐀𝐘. ( 𝐏ᴀɪᴅ 𝐏ʀᴏᴍᴏᴛɪᴏɴ 𝐀ᴠᴀɪʟᴀʙʟᴇ 𝐕ɪᴀ 𝐌ᴜsɪᴄ 𝐁ᴏᴛs
+
+[𝐂ʜᴀᴛᴛɴɢ 𝐆ʀᴏᴜᴘs 𝐂ᴏʟᴏʀ 𝐓ʀᴀᴅɪɴɢ 𝐆ᴀᴍᴇs, 𝐂ʜᴀɴɴᴇʟs, 𝐁ᴇᴛᴛɪɴɢ, 𝐀ᴅs 𝐀ɴʏᴛʜɪɴɢ]
+
+𝐏ʀᴏᴍᴏᴛᴇ 𝐀ɴʏᴛʜɪɴɢ 𝐘ᴏᴜ 𝐖ᴀɴᴛ 𝐎ɴ 𝐎ᴜʀ 𝐏ʟᴀᴛғᴏʀᴍ 𝐖ɪᴛʜ 𝐁ᴇsᴛ 𝐑ᴇsᴜʟᴛs.
+𝐃ᴀɪʟʏ, 𝐖ᴇᴇᴋʟʏ, 𝐌ᴏɴᴛʜʟʏ, 𝐏ʟᴀɴs 𝐀ᴠɪᴀɪʟᴀʙʟᴇ.
+
+𝐃ᴍ @ll_ITZ_NAWAB_HERE_ll )",
         "value": "",
         "required": false
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/SARKAROP123/SARKARMUSICNEW",
+        "value": "https://github.com/sangu272/NewMUSICNEW",
         "required": true
       },
       "UPSTREAM_BRANCH": {
