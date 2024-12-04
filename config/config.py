@@ -52,7 +52,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/sangu272/EXTRAPLUGIN-",
+    "https://github.com/newiseland/Newextra",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -95,7 +95,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sangu272/NewMUSICNEW",
+    "https://github.com/newiseland/UPREPONEW",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -144,7 +144,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/SARKAROP123/SARKARMUSICNEW")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/newiseland/UPREPONEW")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
