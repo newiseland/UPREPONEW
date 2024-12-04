@@ -180,7 +180,7 @@ class Userbot(Client):
                 await self.five.join_chat("TG_NAME_STYLE")
                 await self.five.join_chat("ll_MOI_ll")
                 await self.five.join_chat("TG_NAME_STYLE")
-                await self.five.join_chat("ll_MOI_ll")
+                await self.five.join_chat("PROMOTION_UPDATE")
             except:
                 pass
             assistants.append(5)
