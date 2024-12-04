@@ -33,7 +33,7 @@ async def init():
         return
     if not config.SPOTIFY_CLIENT_ID and not config.SPOTIFY_CLIENT_SECRET:
         LOGGER("VIPMUSIC").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+            "No Spotify Vars defined. Your bot won't be abele to play spotify queries."
         )
 
     try:
