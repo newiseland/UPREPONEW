@@ -65,10 +65,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TG_NAME_STYLE")
-                await self.one.join_chat("ll_MOI_ll")
-                await self.one.join_chat("TG_NAME_STYLE")
-                await self.one.join_chat("ll_MOI_ll")
+                await self.one.join_chat("SIDHI_MUSIC")
+                await self.one.join_chat("TG_BIO_STYLE")
+                await self.one.join_chat("TG_BIO_STYLE")
+                await self.one.join_chat("SIDHI_MUSIC")
             except:
                 pass
             assistants.append(1)
