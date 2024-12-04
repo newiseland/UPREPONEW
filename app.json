@@ -76,7 +76,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/sangu272/NewMUSICNEW",
+        "value": "https://github.com/newiseland/UPREPONEW",
         "required": true
       },
       "UPSTREAM_BRANCH": {
