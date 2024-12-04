@@ -68,7 +68,7 @@ async def unban_assistant_callback(client, callback_query):
                 await asyncio.sleep(1)
                 await userbot.join_chat(invitelink)
                 await callback_query.message.reply_text(
-                    "**Assistant Joined successfully✅**\nThanks for unbanning🥰"
+                    "**Assistant Joined successfully✅**\nThanks for unbanning⭐"
                 )
             except ChatAdminRequired:
                 await callback_query.message.reply_text(
