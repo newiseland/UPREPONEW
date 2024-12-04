@@ -9,9 +9,9 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
-httpx[http2]
+httpx[http2]==0.27.2
 lyricsgenius
-motor
+motor==2.5.0
 wget
 pillow==9.5.0
 pymongo==3.12.0
